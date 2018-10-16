@@ -39,7 +39,7 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.addEventListener('message', handleMessage)
 
     try {
-      const registration = await navigator.serviceWorker.register('/serviceWorker.js')
+      const registration = await navigator.serviceWorker.register('serviceWorker.js')
       registration.addEventListener('message', handleMessage)
     } catch (error) {
       toastr.error('Offline mode not available :(', 'Error offline mode')
