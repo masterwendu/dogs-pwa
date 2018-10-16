@@ -1,0 +1,8 @@
+{
+  "name": "dogpwa",
+  "version": "0.0.1",
+  "description": "get random dog images",
+  "main": "index.html",
+  "author": "Wendelin Peleska",
+  "license": "MIT"
+}
